@@ -1,0 +1,89 @@
+.footer {
+    height: 355px;
+    background-color: #EDE6F3;
+    width: 100%;
+    margin-top: auto;
+    margin: auto;
+    padding: 30px;
+   
+}
+
+.footer-info {
+    height: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    text-align: left;
+    
+}
+
+.footer-logo>p{
+    margin-top: 1rem;
+}
+
+.copyright {
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.footer-icons {
+    width: 50%;
+    display: inline;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.socials{
+    margin-top: 2rem;
+}
+
+.footer-btns {
+    display: inline;
+    width: 50%;
+    position: relative;
+    justify-items: right;
+    margin-left: 50%;
+
+}
+
+.footer-btns > button {
+    display: block;
+    text-align: left;
+   
+}
+
+.req-btn {
+    border: 1px solid;
+    border-radius: 1rem;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 100%;
+}
+
+.socials > a {
+    color: var(--primary-color);
+    font-size: 20px;
+
+}
+
+.footer-btns > .req-btn {
+    border-radius: 5px;
+}
+
+.footer-btns > .req-btn, .footer-btns > .chat-btn {
+    font-size: 15px;
+    height: 2.5rem;
+}
+
+
